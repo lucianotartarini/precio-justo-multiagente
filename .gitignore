@@ -1,0 +1,26 @@
+# Secretos y entorno
+.env
+.env.*
+!.env.example
+.venv/
+env/
+venv/
+
+# Artefactos pesados y datos generados (se obtienen o generan siguiendo el curso)
+*.pkl
+products_vectorstore/
+vector_db/
+memory.json
+model_cache/
+.gradio/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints
+
+# Editor y herramientas locales
+.claude/
+.vscode/
+.idea/
+.DS_Store
